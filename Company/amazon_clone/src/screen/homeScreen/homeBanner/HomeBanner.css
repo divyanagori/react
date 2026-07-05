@@ -1,0 +1,146 @@
+.homeBanner{
+    width: 100%;
+    background-color: rgb(234,237,237);
+}
+
+
+.homeBannerimg{
+    width: 100%;
+    display: block;
+
+    object-fit: cover;
+
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,1),
+        rgba(0,0,0,0)
+    );
+}
+
+/* MAIN CARDS CONTAINER */
+
+.homeBannerItemDiv{
+
+    width: 95%;
+    max-width: 1500px;
+
+    margin: -350px auto 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 20px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+/* SINGLE CARD */
+
+.homeBannerItemDivCard{
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 0 15px;
+
+    min-width: 0;
+}
+
+/* CARD TITLE */
+
+.homeBannerItemDivCardTitle{
+
+    margin: 0 20px;
+
+    font-size: 21px;
+    font-weight: 700;
+}
+
+/* IMAGE GRID */
+
+.imgHomeBannerItemDivCard{
+
+    margin: 10px 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 12px;
+}
+
+/* SINGLE IMAGE ITEM */
+
+.imgBannerHomeDiv{
+    width: 100%;
+}
+
+/* IMAGE */
+
+.imgBannerHomeDivImg{
+
+    width: 100%;
+
+    aspect-ratio: 1/1;
+
+    object-fit: cover;
+}
+
+/* IMAGE TEXT */
+
+.imgBannerImgName{
+
+    font-size: 12px;
+
+    margin-top: 5px;
+}
+
+/* SEE MORE */
+
+.seeMoreHomeBanner{
+
+    margin: auto 20px 0 20px;
+
+    font-size: 13px;
+
+    color: #007185;
+
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1400px){
+
+    .homeBannerItemDiv{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media(max-width:1100px){
+
+    .homeBannerItemDiv{
+
+        grid-template-columns: repeat(2,1fr);
+
+        margin-top: -250px;
+    }
+
+}
+
+@media(max-width:700px){
+
+    .homeBannerItemDiv{
+
+        grid-template-columns: 1fr;
+
+        margin-top: -100px;
+    }
+
+}

@@ -1,0 +1,115 @@
+/* .NavbarBanner {
+  background-color: #232f3e;
+  height: 39px;
+  display: flex;
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 11px;
+}
+
+.AllBoxCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 9px;
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+}
+.menuIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.allCode {
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+
+.allText {
+  font-size: 13px;
+  font-weight: 700;
+}
+.allOptionBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font: 12px;
+}
+.allOptionOptions {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 8px 5px;
+  font-size: 14px;
+  font-weight: 600;
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+}
+.adsbox{
+    height: 39px;
+    display: flex;
+    margin-left: auto;
+     &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  }
+} */
+/* ----------------- */
+.navbarBanner{
+ background-color: #232f3e;
+  height: 39px;
+  display: flex;
+  color: white;
+justify-content: space-between;
+  padding-left: 11px;
+}
+/* ------------------ */
+.navbarBannerRightSide{
+    display: flex;
+    margin-left: auto;
+    padding-right: 15px;
+     &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+    
+}
+
+
+/* --------------------------- */
+
+.navbarBannerOptionsLeft{
+  display: flex;
+}
+
+.optionsNavbarBanner{
+  display: flex;
+  padding: 8px 9px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+     &:hover {
+    border-radius: 3px;
+    border: 1px solid;
+  } 
+}
+
+.allOptionsNavbarBanner{
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: 400  ;
+}
