@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ticket-flow-client-side-solution",
+    "id": "c1384910-4393-463e-8c5f-b73cf03bfdbd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TicketFlow description"
+      },
+      "longDescription": {
+        "default": "TicketFlow description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ticket-flow Feature",
+        "description": "The feature that activates elements of the ticket-flow solution.",
+        "id": "4438db12-f060-4a75-9400-ab141233ba9c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ticket-flow.sppkg"
+  }
+}

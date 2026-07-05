@@ -1,0 +1,104 @@
+
+* {
+  .ms-Dropdown-title {
+    border-radius: 15px;
+    border-color: gray;
+  }
+  .ms-TextField-fieldGroup {
+    border-radius: 15px;
+    border-color: gray;
+  }
+  .c_7sEIa_hHQBj {
+    display: none;
+  }
+  .p_ZwSiC_hHQBj {
+    max-width: unset;
+  }
+  .spAppAndPropertyPanelContainer .sp-appBar {
+    min-width: unset;
+  }
+  .c_XTVxy_hHQBj {
+    padding: unset;
+  }
+
+  [dir="ltr"] .CanvasComponent.LCS .CanvasZone.CanvasZone--edit {
+    padding-left: unset;
+  }
+
+  [dir="ltr"] .CanvasComponent.LCS .CanvasZone.CanvasZone--edit {
+    padding-right: unset;
+  }
+  .CanvasComponent.LCS .CanvasSection-col {
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .p_ZwSiC_hHQBj {
+    margin: unset;
+    max-width: unset;
+  }
+  .CanvasComponent.LCS .CanvasZone .CanvasZoneSelectable {
+    height: 0;
+    position: unset;
+    top: 0;
+    width: 0;
+  }
+  .CanvasComponent.LCS .CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
+    padding: unset;
+  }
+
+  .CanvasToolboxHint-plusButtonWrapper {
+    display: none;
+  }
+ 
+}
+.ParentNavbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.childNavbar {
+  width: 96%;
+  margin-top: 10px;
+   background-color: white;
+     border-radius: 8px;
+       padding: 14px 14px 0 14px;
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.headingLineOne {
+  color: gray;
+  font-weight: bold;
+}
+.headingLineSecond {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+.headingLineThree {
+  color: gray;
+  opacity: 0.9;
+}
+.rightNavbarContent {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.borderRadiusBox {
+  border-radius: 30px;
+}
+.filterIcon {
+  margin-top: 25px;
+}
+.addTaskButton {
+  margin-top: 25px;
+}
+.settingIcon {
+  margin-top: 25px;
+}

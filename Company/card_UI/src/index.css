@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.card_nav{
+    display: flex;
+    justify-content: space-between;
+       
+        margin-bottom: 20px;
+   
+}
+
+.active{
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+}
+.option{
+    font-size: 25px;
+    font-weight: 500px;
+    color: gray;
+}
+.cardItem{
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+  
+    border-radius: 50%;
+    display: flex;
+
+}
+.card_image{
+    display: flex;
+    justify-content: center;    
+}
+.name{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;   
+}
+.job{
+     display: flex;
+    justify-content: center;  
+}
+
+.body{
+    height: 150px;
+    
+   
+    border-radius: 8px;
+    margin-top: 10px;
+     margin-bottom : 20px;
+     padding: 15px;
+     background-color: rgb(193, 214, 224);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+       
+}
+.view_details{
+   
+    
+    font-weight: 500px;
+    margin-right: 5px;
+}
+.view{
+    display: flex;
+     color: black;
+     font-weight: bold;
+}
+
+.number{
+    width: 130px;
+    display: flex;
+     justify-content: center;
+     border-radius: 8px;
+   
+    color: rgba(19, 117, 192, 0.774);
+    margin-top: 10px;
+}
+.mail_id{
+    width: 170px;
+    display: flex;
+     justify-content: center;
+     border-radius: 8px;
+
+    color: rgba(19, 117, 192, 0.774);
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.mail{
+    margin: 10px;
+}
+.employee_id{
+    margin: 10px;
+}
+
+
+.cardbox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: Irgb(222, 238, 252);
+}
+
+.cardItem{
+    background-color: rgba(235, 235, 235, 0.564);
+}
+
+
+
+
+.cardItem:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+.view:hover{
+    color: blue;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.mail_id:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.option:hover{
+    color: black;
+    cursor: pointer;
+}
+.active:hover{
+    background-color: rgb(54, 143, 54);
+    color:black;
+    cursor: pointer;
+}
+
+.input_fild input{
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.input_fild button{
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+}

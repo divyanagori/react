@@ -1,0 +1,16 @@
+.Timesheet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TimesheetBox {
+  width: 96%;
+  height: 160px;
+  background-color: white;
+  padding: 14px;
+  margin-top: 5px;
+  border-radius: 8px;
+  overflow: auto;
+}
+

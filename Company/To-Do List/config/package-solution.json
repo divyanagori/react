@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "to-do-list-client-side-solution",
+    "id": "876bedbd-cec1-4c32-b818-3f20c581aa3d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "to-do-list description"
+      },
+      "longDescription": {
+        "default": "to-do-list description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "to-do-list Feature",
+        "description": "The feature that activates elements of the to-do-list solution.",
+        "id": "24c089f5-9961-473a-a158-da00d0b3fc6b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/to-do-list.sppkg"
+  }
+}

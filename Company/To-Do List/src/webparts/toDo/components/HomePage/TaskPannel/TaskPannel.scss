@@ -1,0 +1,258 @@
+.parentTaskPannel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taskPannel {
+  width: 99%;
+  height: 160px;
+  background-color: white;
+  padding: 14px;
+  margin-top: 5px;
+  border-radius: 8px;
+  overflow: auto;
+}
+.taskPannelText {
+  font-size: medium;
+  font-weight: bold;
+}
+.parentTaskBox {
+  margin-top: 8px;
+}
+.taskBox {
+  border-radius: 10px;
+  padding: 10px;
+}
+.taskBox.Overdue {
+  background-color: #ffb6c133;
+}
+
+.taskBox.Working {
+  background-color: #d4edda;
+}
+
+.taskBox.Hold {
+  background-color: #d6eaff;
+}
+
+.taskBox.Pending {
+  background-color: #eeeeee;
+}
+.taskBoxHeadline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headlineText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.headlineProjectName {
+  font-size: small;
+  font-weight: bold;
+}
+.headlineReminder {
+  border-radius: 8px;
+  font-size: xx-small;
+
+  padding: 1.5px 5.5px;
+  font-weight: 700;
+}
+.headlineReminder.Working {
+  background-color: #c3e6cb;
+  color: darkgreen;
+}
+.headlineReminder.Hold {
+  background-color: #b8daff;
+  color: darkblue;
+}
+.headlineReminder.Pending {
+  background-color: #d6d6d6;
+  color: darkgrey;
+}
+.headlineReminder.Overdue {
+  background-color: #ffcccc;
+  color: darkred;
+}
+.headlineStatus {
+  border-radius: 8px;
+  font-size: xx-small;
+  padding: 2px;
+  font-weight: 700;
+  color: gray;
+  background-color: white;
+  padding: 1.5px 5.5px;
+}
+.headlineButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.outerButton {
+  font-size: x-small;
+  border-radius: 8px;
+  padding: 3px;
+  font-weight: bolder;
+}
+// .editButton:hover .ms-Button-icon {
+//   color: white !important;
+// }
+
+.editButton {
+  border: 1px solid darkgray;
+  &:hover {
+    background-color: darkgray;
+    color: white;
+  }
+}
+
+.completedButton {
+  border: 1px solid darkgreen;
+  &:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+  &.is-disabled:hover {
+    background-color: white !important;
+    color: gray !important;
+  }
+}
+.deleteButton {
+  border: 1px solid darkred;
+  &:hover {
+    background-color: darkred;
+    color: white;
+  }
+}
+.taskBoxStatus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.statusInfo {
+  color: gray;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+// ==========Status Pannel=====
+.taskBoxPannels {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.statusPannelDiv {
+  .ms-Dropdown {
+    width: 260px;
+  }
+}
+.statusPannel {
+  .ms-Dropdown-title {
+    border-radius: 8px;
+    border: 1px solid darkgray;
+    font-size: small;
+  }
+}
+
+.startDatePannel {
+  .ms-TextField-wrapper {
+    width: 260px;
+  }
+  .ms-TextField-fieldGroup {
+    border-radius: 8px;
+    border: none;
+  }
+  .ms-TextField-field {
+    color: gray;
+    font-size: small;
+  }
+}
+.endDatePannel {
+  .ms-TextField-wrapper {
+    width: 260px;
+  }
+  .ms-TextField-fieldGroup {
+    border-radius: 8px;
+    border: none;
+  }
+  .ms-TextField-field {
+    color: gray;
+    font-size: small;
+  }
+}
+
+.todayHoursPannel {
+  .ms-TextField-wrapper {
+    width: 260px;
+  }
+  .ms-TextField-fieldGroup {
+    border-radius: 8px;
+    border: none;
+  }
+  .ms-TextField-field {
+    font-weight: 500;
+    font-size: small;
+  }
+}
+.toDoSection {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 12px 5px 2px 5px;
+  max-height: 200px;
+  overflow: auto;
+}
+.toDoSectionTopDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toDoSectionTopLeftDiv {
+  display: flex;
+  align-items: center;
+  margin: 4px 8px 0px 8px;
+}
+
+.toDoSectionTopLeftDiv {
+  font-size: small;
+  font-weight: 700;
+}
+.toDoSectionAddButton {
+  background-color: #edebe9;
+  border-radius: 8px;
+  margin-right: 17px;
+  padding: 4px;
+  font-size: x-small;
+  .ms-Button-label {
+    font-weight: bold;
+  }
+}
+.toDoSectionBottomDiv {
+  color: gray;
+  margin: 0px 15px 7px 15px;
+}
+
+// ============todo Task Box=====
+.toDoSectionTodoTaskDiv {
+  display: flex;
+  padding: 8px 20px;
+}
+.todoTaskTextField {
+  width: 100%;
+  .ms-TextField-fieldGroup {
+    border-radius: 7px;
+    border-color: lightgray;
+    margin-left: 5px;
+  }
+}
+.todoTaskCheckbox {
+  display: flex;
+  align-items: center;
+
+  .ms-Checkbox-checkbox {
+    border-color: lightgray;
+  }
+}

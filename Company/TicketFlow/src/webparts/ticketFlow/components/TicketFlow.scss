@@ -1,0 +1,76 @@
+  * {
+    .fui-Toolbar {
+      display: none;
+    }
+    .fui-Overflow {
+      display: none;
+    }
+    .p_ZwSiC_hHQBj {
+      border: unset;
+      margin: unset;
+      max-width: unset;
+    }
+    .spAppAndPropertyPanelContainer .sp-appBar {
+      background: unset;
+      display: unset;
+      min-width: unset;
+    }
+    .p_ZwSiC_hHQBj,
+    .w_4YHJ__hHQBj {
+      position: unset;
+    }
+    @media screen and (min-width: 641px) {
+      [dir="ltr"] .CanvasComponent.LCS .CanvasZone.CanvasZone--edit {
+        padding: unset;
+      }
+    }
+  
+    .CanvasComponent.LCS
+      .CanvasToolboxHint
+      .CanvasToolboxHint-plusButtonWrapper
+      .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone {
+      background-color: unset;
+    }
+
+    [dir="ltr"] .CanvasComponent.LCS .Canvas--edit.Canvas--withLayout {
+      margin-left: unset;
+    }
+    .CanvasZoneContainer {
+      margin: unset;
+    }
+    .CanvasComponent.LCS .CanvasSection-col {
+      min-height: unset;
+      padding: unset;
+    }
+    .CanvasToolboxHint-plusButtonWrapper {
+      display: none;
+    }
+    @media screen and (min-width: 1024px) {
+      .CanvasComponent.LCS .CanvasSection--edit {
+        min-width: unset;
+      }
+    }
+    // .b_X-VRU_hHQBj {
+    // }
+    .CanvasComponent.LCS .CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
+      padding: none;
+    }
+    .CanvasComponent.LCS .CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
+      padding: 8px;
+    }
+    .CanvasComponent.LCS .CanvasZone {
+      max-width: 1278px;
+    }
+    .CanvasComponent.LCS .CanvasZoneContainer {
+      margin-top: 1px;
+    }
+    .CanvasZone {
+      display: none;
+    }
+    .CanvasComponent.LCS .CanvasZone.CanvasZone--selected .CanvasSection--edit {
+      min-height: unset;
+    }
+    .CanvasComponent.LCS .CanvasZone.CanvasZone--controlSelected .CanvasSection--edit {
+    min-height: unset;
+}
+  }

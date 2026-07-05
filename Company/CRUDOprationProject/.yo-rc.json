@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "practice-set-2",
+    "libraryId": "6b5c4aad-9046-40a5-aafe-e6ebd4435221",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "practice-set-2",
+    "solutionShortDescription": "practice-set-2 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

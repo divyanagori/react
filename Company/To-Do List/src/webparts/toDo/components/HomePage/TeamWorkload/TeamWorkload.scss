@@ -1,0 +1,33 @@
+*{
+  .userWorkloadStatus .ms-DetailsHeader-cellTitle {
+  display: flex;
+  justify-content: center;
+}
+}
+
+.TeamWorkload {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TeamWorkloadBox {
+  width: 96%;
+  height: 160px;
+  background-color: white;
+  padding: 14px;
+  margin-top: 5px;
+  border-radius: 8px;
+  overflow: auto;
+}
+.TeamWorkloadTable {
+  width: 100%;
+}
+.TeamWorkloadTableHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.TeamWorkloadTableData {
+  display: flex;
+  justify-content: space-between;
+}

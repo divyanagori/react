@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "practice-set-2-client-side-solution",
+    "id": "6b5c4aad-9046-40a5-aafe-e6ebd4435221",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "practice-set-2 description"
+      },
+      "longDescription": {
+        "default": "practice-set-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "practice-set-2 Feature",
+        "description": "The feature that activates elements of the practice-set-2 solution.",
+        "id": "8394a1d1-ab1d-45ea-9f03-3847aba7f860",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/practice-set-2.sppkg"
+  }
+}

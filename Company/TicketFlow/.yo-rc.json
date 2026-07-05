@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "ticket-flow",
+    "libraryId": "c1384910-4393-463e-8c5f-b73cf03bfdbd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TicketFlow",
+    "solutionShortDescription": "TicketFlow description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

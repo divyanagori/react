@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ticket-flow-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ticketFlow/TicketFlowWebPart.js",
+          "manifest": "./src/webparts/ticketFlow/TicketFlowWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TicketFlowWebPartStrings": "lib/webparts/ticketFlow/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
